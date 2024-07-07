@@ -113,8 +113,6 @@ IV. **Modify the created user to include their respective groups**
 - After creating the different groups, now comes the time to assign these groups to their respective users, so we use the `sudo usermod -a -G "$group" "$user"` command to perform the modification.
 - The `-a` flag stands for append and it is used to add the user to the supplementary group(s) specified by the `-G` option without removing them from other groups they may already be members of.
 - The `-G` flag accepts the group or groups we want to add, in our case the group(s) are stored in the `$group` variable.
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f2cv703ksq439r8ffq14.jpg)
 - After this operation is performed, the action is logged in our log file.
 
 You can find the entire source code to this script here. The script was task given by HNG Internship for stage one DevOps participants. HNG Internship is a fast-paced bootcamp for learning digital skills. Signing up is [free](https://hng.tech/internship). If you're looking for something more extra, then consider signing up for [premium](https://hng.tech/premium).
-
