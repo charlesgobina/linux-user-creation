@@ -1,3 +1,5 @@
+[Link to the article](https://dev.to/charlesgobina/automating-linux-user-and-group-creation-using-a-bash-script-2jmj)
+
 Sysadmins often find themselves caught in an endless loop of user management. With each new hire, they're tasked with the tedious chore of setting up yet another account. The process can quickly become monotonous, so I devised a bash script to automate the user creation process by simply providing a file with the user data as an argument to the script.
 
 Let's begin by creating the name of the script and making it executable
